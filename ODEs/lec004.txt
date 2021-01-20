@@ -1,0 +1,82 @@
+Tue 19 Jan 2021 08:36:23 PST
+Lectures lec004
+
+if ∂f/∂y exists and bounded near (a,b)
+then f is lipshitz near (a,b)
+this is sufficient but not nessisary
+the proof is done using the MVT
+
+example:
+y' = f(t,y) = arctan(t^2+y^2+1), y(0) = 2
+∂f/∂y = 2y/(1+(t^2+y^2+1)^2)
+thus ∂f/∂y is bounded around any (t0,y0),
+in particular, (0,2)
+thus by cauchy lipshitz theorem
+TE unique solution y defined on t in (-e1,e2)
+for e1,e2>0
+
+another excersize: what is the largest interval?
+
+
+note: higher order ODEs are systems of first order ODEs
+then we apply the theorem
+
+|y|y" = 1
+y(0)=y'(0) = 0
+
+
+
+
+peano's theorem preliminaries:
+let M be a set of continuous f on I = [a,b]
+def: M is equicontinuous if FA e>0, TE d
+d = d(e) st. FA f in M, FA x,xhat: |x-xhat|<d
+implies |f(x)-f(xhat)| < e
+
+notice we need to have the same modolous of continuety
+on all functions and all points on the function
+
+example: lipshitz cont functions with lip constant L≤K
+
+Arzela-Ascoli theorem:
+every bounded and equicontinuous sequence {fn}≤C(I)
+contains a uniformly convergent subsequence with a
+limit in C(I)
+
+
+
+
+Peano's theorem:
+let f(t,y) be continuous and bounded
+in S = I*R with I = [z,z+a] with a>0
+then TE at least one y = y(t)
+defined on I st. y' = f(t,y)  in I
+                 y(z) = q
+
+
+he proves it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

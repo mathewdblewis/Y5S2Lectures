@@ -1,0 +1,98 @@
+Wed 13 Jan 2021 08:34:24 PST
+Lectures lec002
+
+last time: recap of existance and uniqueness
+
+a first order system of ODEs
+(1):  dy/dt = f(t,y),    y(a) = b
+
+a solution to (1) is a C1 function y(t)
+
+also we can integrate (1)
+(2):  y(t) = b + ∫f(k,y(k))dk over [a,t]
+
+let T be the transformation (aka map or operator)
+defined by y(t) = y -> Ty := Ty(t) = b + ∫f(k,y(k))dk over [a,t]
+
+notice (2) can be rewritten as: y = Ty
+thus solutions are just fixed points of the operator T
+
+
+
+some notes on fixed points on operators on metric spaces:
+
+def: metric space: (M,p)
+where M≠ø, p:M^2->R st:
+p(a,b) = p(b,a)
+p(a,b) = 0 iff a=b
+p(a,c) ≤ p(a,b)+p(b,c)
+
+
+
+def: cauchy sequence
+a sequence {xn} in M is cauchy if
+FA e>0, TE N st. if n,m≥N, then p(xn,xm)<e
+recall in R^n, cauchy sequences and
+convergent sequences are the same
+however they aren't nessisarily in
+arbitrary metric spaces
+
+def: (M,p) is complete if all cauchy sequence
+has a limit in M
+
+examples: the p norm on R^n for p=2 or other p's
+
+also the sup norm:
+p(f,g) = sup|f(t)-g(t)| over a≤t≤b
+
+theorem: the continuous maps from [a,b] to R
+with the sup norm makes a complete metric space
+
+
+example transforms:
+1: the map √(1-t^2) on the interval [-1,1]
+2: M is the unit circle and T rotates by an angle π/2
+
+he gives more examples
+
+NOTE: if Tx=x we say x is a fixed point of T
+also T^0 is the identity and T^n is T composed with itself n times
+also T^m(M) = {T^m(x):x in M}
+
+theorem:
+if x is a fixed point then x in intersect T^n(M) over n in {1,2,...}
+conversely, if intersect T^n(M) = {y} then Ty = y
+forward is clear, reverse less so
+
+proof of reverse:
+if z in the intersection, then Tz in {z}
+thus Tz = z and so the reverse holds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

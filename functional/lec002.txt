@@ -1,0 +1,72 @@
+Wed 13 Jan 2021 12:45:02 PST
+Lectures lec002
+
+text: Functional Analysis, by Walter Rudin
+
+we look at normed linear spaces
+we could instead look at topological linear spaces
+however this is less motivated (according to Marcello)
+
+norms and seminorms:
+(V,+,*) vector space over R or C
+convex combination: ax+by for some 0≤a,b≤1 st. a+b=1
+a set is convex if it is closed under convex combination
+an extremal point is one that is not a non trivial convex
+combination of two elements
+
+a normed vector space (V,+,*) with a norm ||:V->R st:
+|v|≥0, and |v|=0 iff v=0    (strict positivity)
+|av| = |a||v|               (homogeneity)
+|v+w|≤|v|+|w| for v,w in V  (triangle inequality)
+
+lemma: suppose (V,||) a normed linear space (NLS)
+1:   let d(v,w) = |v-w|, the d is a metric on V
+2:   ||:V->R is contractive (hence continuous)
+     eg: ||v|-|w|| ≤ |v-w|
+
+he proves this (trivial)
+
+theorem: NLS are metric spaces
+proof left as exercise
+
+
+cor: addition and multiplication are continuous
+
+addition is a function from V*V to V
+scalar mult is a function from K*V to V
+where V is the vector space and K the scalar space
+
+def: equivalence of norms:
+two norms in a vector space V are eq. iff TE
+a,b>0 st. a|v|' ≤ |v| ≤ b||v|'
+equivalently: TE c>0 st. |v|'/c ≤ |v| ≤ c|v|'
+
+
+thm: this notion of equivalence is an equivalence relation
+thm: equivalent norms induce the same topology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

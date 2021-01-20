@@ -1,0 +1,66 @@
+Fri 15 Jan 2021 08:34:49 PST
+Lectures lec003
+
+Existance and uniqueness of solutions to PDEs
+
+thm 1.3: principle of successive iterations
+if T a continuous map on metric space (M,p)
+and if lim n->∞ T^n x = y  for some x in M
+then Ty = y
+
+recall con't can be defined via convergence
+eg: T is cont iff foral xn -> x, Txn -> Tx
+
+now Ty = T lim n->∞ Tn x = lim n->∞ T Tn x (by continuety)
+= lim n->∞ Tn x = y
+
+
+def: contraction map:
+let T be a map from the metric space to itself
+T is contractive iff TE k, 0≤k<1 st. d(Tx,Ty) ≤ kd(x,y)
+FA x,y in M
+
+thm 1.4: contraction mapping thm due to banach 1922
+if M is a complete non empty metric space and T:M->M
+is a contraction, then T has a unique fixed point
+
+proof: let y in M and consider T^n y
+we show these iterates converge
+to do this, notice the distance between successive points
+always decrease due to the contractive property
+we use this repeatedly until we get convergence
+because the sequence must be cauchy and the space is
+complete thus it converges
+
+he does this proof very carefully
+
+
+thm 1.5:
+consider: y' = f(t,y), y(a) = b
+let f(t,y) cont and satisfy lipshitz condition wrt to y
+that is, |f(t,y)-f(t,z)| ≤ k|y-z|
+this holds in a neighbourhood P1 of (a,b)
+then the IVP has a unique sol in a nieghbourhood of a
+
+he proves this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

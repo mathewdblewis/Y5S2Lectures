@@ -1,0 +1,78 @@
+Tue 19 Jan 2021 12:31:23 PST
+Lectures lec004
+
+banach space: a complete normed linear space
+
+cauchy sequence xn: FA e>0, TE N st. |xn-xm|<e FA m,n≥N
+
+notice completeness is not a topological concept
+
+examples: R,C,R^d, B(X) = {bounded functions (real or complex) on a set X}
+|f|_∞ = sup{|f(x)|: x in X}
+
+if X is a topological space, then Cb(X) = {bounded continuous functions on X}
+also with the sup norm
+
+If X is a locally compact hausdorff space then we say
+C0(X) = {continuous function vanishing at ∞}
+again, with sup norm
+vanishing at infinity means, FA e>0, TE compact set K st. FA x not in K, f(x)<e
+
+Theorem: if X,Y are compact hausdorff top spaces, then a banach space isomorphism
+between C0(X) and C0(Y) gives rise to a homeomorphism between X and Y
+
+theorem: FA banach spaces C, TE a top space X st. C = C0(X)
+
+
+C^1([0,1]) means functions that have continuous derivatives defined on [0,1]
+|f|_C1 = max{|f|_∞,|f'|_∞}
+(you could also define it to be the sum)
+so now a cauchy sequence must converge in both the function value and derivatives
+
+
+sequence spaces over N
+c_c = finitely supported real or complex sequences over N
+c0 = sequences that converge to 0
+c = sequences that converge
+l^∞ = bounded sequences
+
+if we give these spaces the sup norm, they are all complete except c_c
+
+l1 = sumable sequences with |a|_1 = ∑|an|
+lp = ... with norm |x|p = (∑|an|^p)^(1/p)
+
+all the spaces except the first are complete
+
+question: which ones are completions of c_c with an apropriate norm?
+question: which spaces contain which?
+
+
+lemma: absolute convergence
+A normed linear space (V,||) is a banach space iff
+every absolutely convergent series in V converges
+
+proof: absolute convergent => partial sums are absolute cauchy => are cauchy
+via triangle inequality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

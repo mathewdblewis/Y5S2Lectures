@@ -1,0 +1,46 @@
+Fri 15 Jan 2021 12:30:37 PST
+Lectures lec003
+
+he does the missing part of the proof from last time
+
+
+
+notice |xn|_∞ = max|xn|, |xn|_2 = √∑|xn|^2, |xn|_1 = ∑|xn|
+are not equivalent
+however they are equivalent in finite dimension
+moreover, |xn|_p is not equivalent to |xn|_q for p≠q
+
+
+
+
+
+2.1.2: seminorms and quotients
+def 2.11: a function p:V->R is a seminorm or pseudonorm if
+p(v) ≥ 0, p(av) = |a|p(v), p(v+w) ≤ p(v)+p(w)
+notice we now lack definiteness
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
