@@ -1,0 +1,31 @@
+Wed 20 Jan 2021 12:36:41 PST
+functional lec005
+
+
+theorem: let p:X0->[0,∞) be a seminorm on a vector space X0. then TE! banach space
+(X,||) with a linear map ø:X0->X st. closure(ø(X0)) = X and FA x in X0, |ø(x)| = p(x)
+
+he proves this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
