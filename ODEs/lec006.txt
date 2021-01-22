@@ -1,6 +1,52 @@
 Fri 22 Jan 2021 08:23:50 PST
 ODEs lec006
 
+3.2: linearization near eq points
+
+let x be an eq of x'=f(x)
+a is a positive attractor iff
+TE neighbourhood (neigh) ø_a if a
+with the property if x(t0) in ø_a
+then lim t->∞ x(t) = a
+
+a is a negative attractor iff
+... (same stuff) lim t->-∞ x(t) = a
+Notice its negative for negative attractors
+
+
+lotka-volterra equations:
+x' = ax-bxy
+y' = bxy-cy
+
+first find equilibria:
+ax=bxy=cy, either x=y=0 or
+a/y=b=c/x thus x=c/b,y=a/b
+thus we have (0,0) and (c/b,a/b)
+then we linearize at each point
+here is the derivative:
+[a-by, -bx]
+[ by, bx-c]
+now at (0,0) we get:
+[a  0]
+[0 -c]
+at (c,a)/b we get:
+[0 -c]
+[a  0]
+
+homoclinic orbits are ones where
+you connect two equilibrium points
+also could connect an eq point to
+itself
+
+
+
+lemma 3.2: each closed orbit
+corresponds to a periodic solution
+in particular, f does not vanish on
+the orbit
+
+he proves it
+
 
 
 
