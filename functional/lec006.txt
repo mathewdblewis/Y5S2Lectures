@@ -1,0 +1,69 @@
+Fri 22 Jan 2021 12:38:15 PST
+functional lec006
+
+prop: let (V,||) be a NLS that is infinite dimensional
+then B_1(0)={v:|v|≤1} is not compact
+he proves this
+
+random question: is the intersection of an arbitrary set of compact sets compact?
+if so, we can ask for the 'smallest' compact set containing a set
+
+
+def:
+if X is a metric space, f:X->(C or R) is uni cont if:
+FA e>0 TE d>0 st. FA x,y, d(x,y)<d => |f(x)-f(y)|<e
+
+thm: if X compact, continuous <=> uniformly continuous
+he doesn't prove this
+
+thm: Arzela-Ascoli
+Let (X,d) be a compact metric space (C(X),||_∞)
+banach sapce of continuous R of C functions
+K≤C(X) is compact iff K is closed bounded and equicontinuous
+
+
+def: equicontinuous if:
+FA e>0 TE d>0 st. FA x,y,f d(x,y)<e => |f(x)-f(y)|<e
+
+notice this works for finite sets
+
+
+proof: if K compact, then its closed and bounded
+{Bn(0):n in N} is a cover of the whole space, and thus covers K
+thus by compactness, it has a finite subcover
+thus K is bounded
+say K was not closed, then we have an accumulation point p out side of K
+then we cover K by taking sets ever closer to p
+however we then take a finite subcover, but it can't get close to p
+so we have a contradiction
+
+
+how to show if its compact, its equicontinuous
+let e>0, by compactness, TE f1,f2...fn in C(X) st. U Be(fn) ≥ K
+by uniform continuety of each fi, TE d>0 st. FA x,y,i, d(x,y)<d => |fi(x)-fi(y)|<e
+....
+
+
+we visit the converse of the proof on Tuesday
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
