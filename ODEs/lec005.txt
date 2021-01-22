@@ -3,11 +3,27 @@ ODEs lec005
 
 www.youtube.com/watch?v=y0GnSEaAFKk
 
+he states and proves gronwalls inequality
+and finds the dependence on ICs theorem as a corollory
+
+he then continuous on to look at autonomous equations
+
+he defines equilibrium as a point where f(x)=0
+and periodic solution as a ø st. ø(t) = ø(t+T)
+for all t and some specific T>0
+(he also asks that T be minimal)
+
+autonomous eqs have 'translation property'
+which says if ø is a solution then so is ø(t-t0)
+also is
 
 
 
-
-
+Here is a general trick:
+consider x'=y, y'=-x
+notice dy/dx = dy/dt / (dx/dt) = -x/y
+thus dy/dx = -x/y thus ydy = -xdx
+thus y^2+x^2 = C
 
 
 
