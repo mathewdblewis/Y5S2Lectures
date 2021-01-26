@@ -1,0 +1,67 @@
+Tue 26 Jan 2021 12:37:32 PST
+functional lec007
+
+stone-weierstrass appprox theorem:
+(X,T) compact top space
+(a): 
+  *  if A≤CR(X) (cont funcs from X to R) is a collection satisfying linear subspace
+  *  closed under pointwise multiplication
+  *  the identity is in it A
+  *  and seperates points: if x≠y then TE f st f(x)≠f(y)
+  then its closure in the infinity norm is CR(X)
+
+(b) for A≤CC(X) (cont funcs from X to C)
+assume all the same conditions in addition to:
+A is self conjugate, that is, f conjugate is in A FA f in A
+
+
+
+lemma:
+part 1: if A is a subalgebra of CR(X) satisfying the 3 points above that contains
+the constants (aka unital subalgebra), then so is cls(A) wrt ∞ norm
+part 2: |f|, max(f,g), and min(f,g) are in cls(A) whenever f and g are
+
+the first part is trivial
+the second we will prove
+
+consider this result: √(1+u) = ∑(1/2 C n) u^n over n in [0,∞) for u in [-1,1]
+he asks us to verify this
+
+
+assume f in cls(A), let M = |f|_∞, define g = f^2/M^2 in cls(A), and notice |g|_∞ = 1
+thus |g(x)| in [0,1] and we can write
+√g = (1+(g-1))^(1/2) = ∑((1/2)C n)(g-1)^n uniformly in CR(X)
+thus √g in cls(A), thus |f| in cls(A)
+
+he claims we can do the min and max results by linear combinations of abs funcs
+
+
+
+proof of part a, let f in CR(X) and e>0, we construct fe in cls(A) st |f*fe|_∞ < e
+step 1: given x0,x1 in X, TE h_(x0,x1) st. h(x0,x1)(xi) = f(xi) for i in {0,1}
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
