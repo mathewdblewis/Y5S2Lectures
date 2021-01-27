@@ -1,0 +1,48 @@
+Wed 27 Jan 2021 08:29:19 PST
+ODEs lec008
+
+classification of critical points (first look at linear systems)
+also lets assume the case is non degenerate
+so we have y'=Ay for some A with det(A)≠0
+notice we can transform the equation in to one of the form y'=By
+for some B in jordan form
+
+he tells us to read 3.1
+
+now look at non linear systems:
+x' = Ax + g(x) where A non singular and lim x->0 g(x)/|x| = 0
+so g has no linear part
+in this case the ode has the same characteristics near x=0
+as x'=Ax
+(eg: positive/negative attractors are preserved)
+
+
+theorem: if TE eigenvalue l with re(l)>0
+the fixed point in not a positive attractor
+
+def: Es = span{ø in C^n: (A-lI)^m ø = 0 with m minimum and re(l)<0} intersect R^n
+def: Eu = span{ø in C^n: (A-lI)^m ø = 0 with m minimum and re(l)>0} intersect R^n
+def: Ec = span{ø in C^n: (A-lI)^m ø = 0 with m minimum and re(l)=0} intersect R^n
+
+thm: R^n = Es (+) Eu (+) Ec
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+Wed 27 Jan 2021 12:31:46 PST
+functional lec008
+
+
+bounded linear maps (in the book refered to as operators)
+consider linear spaces V and W
+let L:V->W be a linear map of the linear space V into the space W
+(with the same scalar field)
+that is, L(au+bv) = aLu+bLv
+
+L:V->W is a linear transformation
+L:V->V is a linear operator
+L:V->(R/C) is a linear functional
+
+lemma: let L:V->W be a linear transform of NLS, TFAE:
+1: L is continuous
+2: L is continuous at 0
+3: |L| := sup{|Lv|: |v|≤1, v in V}<∞
+4: |L| := sup{|Lv|: |v|=1, v in V}<∞
+5: TE k≥0 st. FA u,v in V, |Lv-Lu|≤k|v-u|
+6: TE k≥0 st. FA v in V, |Lv|≤k|v|
+
+def: if these conditions hold, we say L is bounded
+
+he proves some of these and leaves the rest as an excersize
+
+
+lemma: B(V,W) = {T:V->W linear transform with |T|<∞}
+with || is a normed linear space, and is complete iff W is.
+
+he proves this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
