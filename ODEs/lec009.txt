@@ -1,0 +1,38 @@
+Fri 29 Jan 2021 08:23:16 PST
+ODEs lec009
+
+let u* be a an equilibrium for the ODE, x' = f(x)
+WS(u*) = {u0 in R^n: TE b>0: lim t->∞ |x(t,u0)-u*|e^(bt)=0}
+
+existance of stability of stable/unstable manifolds
+in the non linear case
+
+let x' = Ax+g(x)
+where A is non singular, g is a C^k function near x=0, st. |g(x)|=o(|x|)
+then TE C^k WS stable manifold WS of x=0 st:
+(1)  0 in WS; dim(WS) = dim(ES) where T0(WS) = ES
+(2)  if x(t0) in WS, then x(t) in WS FA t≥0
+(3)  if x(t0) not in WS, |x(t)|≥d>0 FA t≥t1≥t0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
