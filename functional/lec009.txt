@@ -1,0 +1,63 @@
+Fri 29 Jan 2021 12:43:59 PST
+functional lec009
+
+
+B(V,W) = {bdd linear trans of NLS V into NLS W}
+|T| = sup{|Tv|: v in V, |v|≤1}
+
+def: V* = B(V,C)    (or B(V,R))
+then (V*,||) is a banach space called the dual space of V
+the dual space has the norm |T| = sup{|Tv|: v in V, |v|≤1}
+and (V**,||) is the double dual
+
+
+lemma: V,W,Z are NLS
+R in B(V,W), S in B(W,Z)
+then SR in B(V,Z) and |SR|≤|S||R|
+
+B(V,V) is a banach algebra   (banach space with multiplication st. |SR|≤|S||R|)
+
+
+hilbert space:
+H is a complex vector space in an inner product space
+if there is a function <.,.>:HxH->C, st:
+<y,x> = conj(<x,y>)
+<x+y,z> = <x,z>+<y,z>
+<ax,z> = a<x,z>
+<x,x>≥0
+<x,x>=0 iff x=0
+also |x| = √<x,x> defines a norm (or a seminorm if we forgo positive definiteness)
+
+
+he states the cauchy schwartz inequality and claim it holds
+(proof left as excersize)
+
+also we have |x+y|≤|x|+|y|
+
+
+hilbert space is a complete inner product space
+if H0 is a preinner product space (no positive definiteness)
+then |x|=√<x,x> is a seminormed and the completion
+of (H0,||) is a hilbert space
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
