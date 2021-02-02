@@ -1,0 +1,78 @@
+Tue  2 Feb 2021 12:24:43 PST
+FA lec010
+
+
+lemma: every no empty closed convex set E in a hilbert space H
+contains a unique element of smallest norm
+
+proof:
+recall parallelogram law: |x+y|^2 + |x-y|^2 = 2|x|^2 + 2|y|^2
+let d = inf{|x|: x in E}
+for x,y in E, use par law with x/2 and y/2 to see that
+...
+
+
+I beleive this follows from a more general result:
+convex maps preserve closure and convexity
+nevermind, this doesn't work because banach spaces aren't convex in general
+
+
+note: any banach space with the parlaw is a hilbert space
+to see this, recall (x+y)^2-(x-y)^2 = 4xy
+
+
+
+
+the norm on a banach space (X,||) is said to be uniformly convex iff there exists
+a monotonically increasing function u:[0,2]->[0,1] with u(0)=0 and FA r>0, u(r)>0
+st |(x+y)/2| ≤ 1-u(|x-y|)
+whenever |x|≤1 and |y|≤1
+
+Lemma: hilbert spaces are uniformly convex
+
+theorem: if X is uniformly convex, 
+
+notice that uniform convexity fails for (R^2,||p) with p in {1,∞}
+because of the flat sides on the unit ball
+so uniqueness fails
+
+
+orthogonal decomposition and projection theorem
+
+theorem: let M be a closed subspace of a hilbert space H
+a:  every x in H has a unique decomposition x = P+Q for P in M and Q in Mperp
+    where Mperp is the orthogonal compliment of M
+b:  P,Q are the nearest points to x in M and Mperp
+c:  the maps x->P and x->Q are linear and |x|^2=|P|^2+|Q|^2
+
+Recall: if S is a subset of a hilbert space H then Sperp = {x in H: FA y in S, <x,y>=0}
+we write xperp for {x}perp
+also xperp is a closed subspace of kernel of y-><x,y>
+
+recall that for each y in H, the map x-><x,y> is a bounded linear functional
+
+theorem: reize representation:
+for each y` in H` TE y in H st. FA x in H, y`(x) = <x,y>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
