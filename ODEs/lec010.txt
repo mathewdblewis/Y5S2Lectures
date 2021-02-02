@@ -1,0 +1,88 @@
+Tue  2 Feb 2021 08:26:45 PST
+ODEs lec010
+
+
+example:
+x' = -y - ax√(x^2+y^2)
+y' =  x - ay√(x^2+y^2)
+
+for some a in R
+
+notice (0,0) is the only equilibrium
+notice the linearization is:
+x' = Ax for A = [0  1]
+                [-1 0]
+
+notice this is a centre (not contractive in forward or backward time)
+
+
+rewrite the non linear system in polar coordinates
+we get:
+ø' = 1
+r' = -ar
+
+this clearly is attractive for a>0 and unattractive for a<0
+so the linearization doesn't tell us everything
+
+the problem is that the eigenvalues had zero real part
+
+
+
+chapter 5: periodic solutions in the plane
+poincare bendixson theorem
+
+consider x' = f(x),  x in R^2
+f = (f1,f2) and smooth
+
+theorem 6.1: bendixons criteria:
+assume D≤R^2 is simply connected (no holes)
+and f is C^1 inb D
+a nessisary condition for the existance of a
+periodic solution is that div(f) = changes
+sign in D or equals 0 in D
+
+proof:
+recall periodic solutions are closed orbits
+let G be the interior of the orbit
+recall greens theorem: if we have a vector field (f1,f2) in the plane
+then ∫∫_G (f2-f1)dA = ∫_∂G (Pdx+Qdy)
+
+thus ∫∫_G div(f)dA = ∫_C -f2 dx + f1 dy
+recall C is an orbit
+
+notice ∫_C -f2 dx + f1 dy = ∫_C (y'x'-x'y') dt = 0
+thus ∫_D div(f) = 0 and thus div of f in D is always 0
+or it changes sign
+
+
+he uses this theorem to show the non linear damped
+osilator has no periodic solutions
+the negative div comes from the fact that you are
+damping
+
+example: van der pol oscilator
+x"+x = u(1-x^2)x'
+equivalently:
+x1' = x2                      = f1(x1,x2)
+x2' = -x1 + u(1-x1^2)x2       = f2(x1,x2)
+
+div(f) = u(1-x1^2)
+thus if a periodic solution exists, it must intersect
+one of the lines x1=±1
+
+
+notice that if a point p1 is on the orbit of p2
+then (as sets) p1 and p2 have the same orbit
+
+
+
+
+
+
+
+
+
+
+
+
+
