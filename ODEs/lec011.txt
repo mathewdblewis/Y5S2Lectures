@@ -1,0 +1,24 @@
+Wed  3 Feb 2021 08:32:47 PST
+ODEs lec011
+
+def: p in R^n is called positive limit point of orb(x0) iff
+TE tk -> ∞ st. x(tk,x0) -> ∞
+the definition for p to be a negative limit point is the
+same except tk goes to negative infinity
+
+the w-limit set of orb(x) is the set of all positive limit points of p
+the a-limit set .... negative limit points ...
+
+theorem: the limit sets are closed and invariant
+
+FINISH WRITTING DOWN THE THEOREM (see video)
+
+he prove this
+
+
+
+
+def: a set is minimial if it is non empty, closed, invariant
+and has no subset which obeys these properties
+
+
