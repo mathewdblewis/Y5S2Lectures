@@ -1,0 +1,40 @@
+Wed  3 Feb 2021 12:34:42 PST
+FA lec011
+
+
+thm:
+if L_v(x) := <x,v> for x in H is a bounded linear functional on H
+then |Lv|=|v|
+
+
+theorem: all bounded linear functionals are of the form L_v(x) = <x,v>
+
+
+
+
+bounded operations on hilbert spaces
+recall T in B(H) = B(H,H)   (bounded linear operators from H to H)
+that is, T st. |T|:=sup{|Tx|: |x|≤1}≤∞
+
+theorem: suppose H is a hilbert space
+if T in B(H) satisfies FA x in H, <Tx,x> = 0, then T=0
+
+proof: 0 = <T(x+y),x+y>   = <Tx,y> +<Ty,x>
+also   0 = <T(x+iy),x+iy> = <Tx,iy>+<Tiy,x> = i<Tx,y>-i<Ty,x>
+...
+this trick requires complex numbers, so the result fails for real hilbert spaces
+
+cor: if FA x,y in H, <Sx,y> = <Tx,y>, then S=T
+proof: consider S-T ....
+
+def: f:H*H->C is a sequilinear form if it is linear on x and conj linear in y
+it is bounded iff |f|:=sup{|f(x,y)|=|x|≤1,|y|≤1}<∞
+
+
+thm: if f is a bdd seqlin form, then TE! operator S in B(H) st.
+FA x,y in H,  f(x,y) = <x,Sy>
+
+
+proof: consider the map x->f(x,y) ...
+
+
