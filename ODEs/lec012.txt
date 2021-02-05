@@ -30,6 +30,15 @@ he uses the implicit function theorem
 
 
 
+def: a sequence is monotone along a solution curve if the times
+are increasing
+
+def: a sequence is monotone along line l if the the points are
+st. xn is between x(n-1) and x(n+1)
+
+
+
+
 
 
 
