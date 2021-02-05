@@ -1,0 +1,48 @@
+Fri  5 Feb 2021 08:31:31 PST
+ODEs lec012
+
+
+consider planar system x' = f(x)
+and assume x0 is not an equilibrium
+let V be a unit vector orthogonal to F(x0)
+l(x0) is the line through x0 in the direction of V
+
+by continuety of F(x), at x0, TE neigbhourhood v_x0 st.
+F(x) cross v ≠ 0
+l(x0) is transverse to F(x) around x0, that is, non tangent
+
+let h: R->l(x0) be defined by u->x0+uV   (eg: its a line)
+
+
+
+def: an open subinterval of l(x0) containing x0 is a local section @ x0
+
+flow box: given a local secion at x0, contruct a map like so:
+(see video)
+
+
+
+note: if the box is sufficiently small, the map is bijective
+
+he proves some other stuff, look at the video
+he uses the implicit function theorem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
