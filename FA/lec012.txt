@@ -1,0 +1,60 @@
+Fri  5 Feb 2021 11:49:55 PST
+FA lec012
+
+
+recall that every hilbert space has a complete orthonormal system (or basis)
+and any two orthonormal bases have the same cardinality
+(determined by the hilbert space)
+this cardiantlity is a complete invariant for isomorphism of hilbert space
+
+an isomorphism of hilbert spaces is a linear bijection that preserves the inner product
+
+construct a hilbert space isomorhpism of L2[0,2π] to l^2(Z)
+the orthonormal basis of the second space is obvious
+so we just need a basis for the first
+
+
+recall: theorem: if f:H*H->C is a bounded sesquilinear form on the hilbert space H
+then there exists a unique operator S in B(H) st. FA x,y in H, f(x,y) = (x,Sy)
+moreover, |S|=|f| = sup{|f(x,y)|, |x|,|y|≤1}
+he proves this
+
+
+
+
+
+
+let T be in B(H), then TE! T` in B(H) st. <Tx,y> = <x,T`y> FA x,y in H
+moreover: |T`|=|T|
+(T+S)` = T`+S`       (aT)` = a`T`       (ST)` = T`S`      T``=T       |T`T|=|T|^2
+
+he proves this
+
+
+|T`T| = |T|^2, proof: |T`T| ≤ |T`||T| = |T|^2
+|Tx|^2 = <Tx,Tx> = <T`Tx,x> ≤ |T`Tx| |x| ≤ |T`T||x|^2
+then take x to be some vector with |x|=1 and we get
+|T|^2 ≤ |T`T| and thus the claim holds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
