@@ -1,0 +1,38 @@
+Tue  9 Feb 2021 08:30:56 PST
+ODEs lec013
+
+q1p2 assume orbit is bounded
+
+lemma: if S is a local section of x'=f(x) and y0,y1...yn are distinct points in S
+that lie on the same solution curve, then y0,y1,...yn is monotonic along the
+solution implies it is monotonic along the section S
+
+proof: it is sufficient to consider 3 points and then extend this to an arbitray
+number of points, so we consider y0,y1,y2
+
+let T be the segment in S joining y0 and y1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
