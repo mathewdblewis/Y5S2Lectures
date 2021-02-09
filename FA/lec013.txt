@@ -1,0 +1,76 @@
+Tue  9 Feb 2021 12:37:29 PST
+FA lec013
+
+B(H) is interesting
+
+def: if T in B(H), let ker(T) = N(T) = {x in H: Tx=0}
+range(T) = R(T) = {Tx: x in H}
+
+theorem:
+if T in B(H), then ker(T`) = range(T)bar and ker(T) = (range(T`))bar
+recall bar means orthogonal compliment
+
+proof: T`y=0 iff <x,T`y> = 0 foral x in H, iff (Tx,y) = 0 FA x in H
+iff Tx=0
+
+
+def: for operator T in B(H), is said to be:
+a: normal if TT`=T`T
+b: self adjoint if T`=T
+c: unitary if T`T=I=TT`
+d: a projection if T^2=T
+   a self adjoint projection if T^2=T=T` or T`T=T
+e: an isometry if T`T=I
+
+
+
+theorem: T in B(H) is normal iff FAx, |Tx|=|T`x|
+moreover, T normal satisfies
+a: ker(T) = ker(T`)
+b: cls(range(T)) = H iff ker(T) = {0}                 (closure in the norm topology)
+c: T is invertible iff TE d>0 st. FAx in H, |Tx|≥d|x|
+d: Tx=ax for some x in H and a in C then T`x=conj(a)x
+e: if a,b are distinct elgenvalues for T, then the coresponding eigenvectors are
+   orthonormal to each other
+
+proof: |Tx|^2 = <Tx,Tx> = <T`Tx,x>
+|T`x|^2 = <T`x,T`x> = <TT`x,x>
+
+NOTE: the range is not nessisarily closed
+
+
+
+thm: if U in B(H), TFAE:
+a: U is a unitary operator (U`U=I=UU`)
+b: range(U) = H and (Ux,Uy) = (x,y)
+c: range(U) = H and |Ux|=|x|
+
+thm: if U in B(H), TFAE:
+a: U is a unitary operator (U`U=I)
+b: (Ux,Uy) = (x,y)
+c: |Ux|=|x|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
