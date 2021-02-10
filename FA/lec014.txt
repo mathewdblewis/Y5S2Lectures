@@ -1,0 +1,77 @@
+Wed 10 Feb 2021 12:29:55 PST
+FA lec014
+
+
+chapter 7: dual spaces
+
+def: a sublinear functional (a norm-like function) is a map
+p:X->R from a linear space X into the reals st.
+p(x+y)≤p(x)+p(y)
+p(ax)=ap(x) for a≥0
+
+
+example of a sublinear functional:
+  the norm in a NLS is sublinear
+  seminorms are sublinear
+  if x* in X* let p(t) = |x*(t)|, then p is sublinear
+
+lemma: han banach lemma
+let X be a real vector space and let p:X->R be sublinear
+suppose Y≤X is a subspace of X, and f:Y->R is linear
+and f is dominated by p, that is, FA y in Y, f(y)≤p(y)
+then we have:
+  1: if x0 in X-Y, TE c in R st. f'(y+lx0) = f(y)+lc
+  defines a linear functional on Y+R*x0 st. f'(y+lx0)≤p(y+lx0)
+  2: TE a linear functional  f;:X->R st. f'(y)=f(y) for y in Y
+     and f'(x)≤p(x) for x in X
+
+
+NOTE: we go between using x and x0, these are the same
+proof: let Y1 = Y+Rx0, then z = y+lx0 uniquely
+suppose c in R and let F(z)=f(y)+lc
+F(y1+lx0)=f(y1)+lc and F(y2+lx0) = f(y2)+lc
+f(y1)-f(y2) = f(y1-y2) ≤ p(y1-y2) = p(y1+x-x-y2) ≤ p(y1+x)+p(-x-y2)
+thus by rearranging we have:
+-f(y2)-p(-x-y2) ≤ -f(y1)+p(y1+x)
+let A be the sup of the left side and B the inf of the right
+let c be in [A,B]
+
+then we have:
+-f(y)-p(-y-x) ≤ c ≤ -f(y)+p(y+x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
